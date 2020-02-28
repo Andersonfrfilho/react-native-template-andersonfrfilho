@@ -20,7 +20,3 @@ export function errorVerify(error) {
   }
   return `Erro Novo`;
 }
-export default {
-  newException,
-  errorVerify,
-};

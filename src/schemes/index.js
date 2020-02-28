@@ -1,4 +1,4 @@
-import Products from './ProductsSchema';
+import Products from './products.scheme';
 
 const Schemas = {
   Products,

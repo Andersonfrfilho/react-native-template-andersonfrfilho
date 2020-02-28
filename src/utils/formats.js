@@ -4,6 +4,10 @@ export function dateTimeCountrySpecify(countryGMT) {
   const newDateCountry = new Date(dataConvertCountry);
   return newDateCountry;
 }
-export default {
-  dateTimeCountrySpecify,
-};
+
+export function formatCurrencyBrazil(number) {
+  return `R$ ${number
+    .toFixed(2)
+    .replace('.', ',')
+    .replace(/(\d)(?=(\d{3})+\,)/g, '$1.')}`;
+}
