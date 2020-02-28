@@ -9,8 +9,8 @@
 
 [![npm](https://img.shields.io/npm/v/react-native-template-andersonfrfilho.svg?label=npm%20package)](https://www.npmjs.com/package/react-native-template-andersonfrfilho)
 [![npm](https://img.shields.io/npm/dt/react-native-template-andersonfrfilho.svg)](https://www.npmjs.com/package/react-native-template-andersonfrfilho)
-[![GitHub issues](https://img.shields.io/github/issues-raw/rocketseat/react-native-template-andersonfrfilho.svg)](https://github.com/Rocketseat/react-native-template-andersonfrfilho/issues)
-[![GitHub last commit](https://img.shields.io/github/last-commit/rocketseat/react-native-template-andersonfrfilho.svg)](https://github.com/Rocketseat/react-native-template-andersonfrfilho/commits/master)
+[![GitHub issues](https://img.shields.io/github/issues-raw/andersonfrfilho/react-native-template-andersonfrfilho.svg)](https://github.com/andersonfrfilho/react-native-template-andersonfrfilho/issues)
+[![GitHub last commit](https://img.shields.io/github/last-commit/andersonfrfilho/react-native-template-andersonfrfilho.svg)](https://github.com/andersonfrfilho/react-native-template-andersonfrfilho/commits/master)
 [![NPM](https://img.shields.io/npm/l/react-native-template-andersonfrfilho.svg)](https://choosealicense.com/licenses/mit)
 
 <!-- PROJECT LOGO -->

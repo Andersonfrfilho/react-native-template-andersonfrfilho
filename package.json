@@ -1,4 +1,22 @@
 {
   "name": "react-native-template-andersonfrfilho",
-  "version": "0.0.2"
+  "version": "0.0.2",
+  "description": "Template para projetos em React Native, com Estrutura de Pastas customizada, Estilos Globais, ESLint + Prettier + Babel Plugin Root Import, React Navigation, Redux, Redux Saga, Reactotron e Axios configurados.",
+  "keywords": [
+    "react-native",
+    "template",
+    "eslint",
+    "react-navigation",
+    "reactotron",
+    "axios",
+    "redux",
+    "redux-saga"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andersonfrfilho/react-native-template-andersonfrfilho.git"
+  },
+  "homepage": "https://github.com/Andersonfrfilho/react-native-template-andersonfrfilho#readme",
+  "author": "Anderson Fernandes <andersonfrfilho@gmail.com>",
+  "license": "MIT"
 }
