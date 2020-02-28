@@ -1,6 +1,6 @@
-export function newException(message) {
+export function NewException(name, message) {
+  this.name = name;
   this.message = message;
-  this.name = 'NewException';
 }
 export function errorVerify(error) {
   if (error instanceof TypeError) {
@@ -18,5 +18,5 @@ export function errorVerify(error) {
   if (error.message === 'errorNovo') {
     return `Erro novo`;
   }
-  return `Erro Novo`;
+  return error.message;
 }
