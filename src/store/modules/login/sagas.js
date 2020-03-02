@@ -10,7 +10,7 @@ import {
   commonSuccessAction,
   commonFailureAction,
 } from '../common/actions';
-import {Exceptions} from '../../../procedures';
+import {errorVerify} from '../../../utils';
 import {addToLoginSuccess} from './actions';
 
 function* addToLogin({payload}) {
@@ -22,7 +22,7 @@ function* addToLogin({payload}) {
     yield put(commonSuccessAction(''));
   } catch (error) {
     // erro de typagem no código
-    const message = Exceptions.errorVerify(error);
+    const message = errorVerify(error);
     yield put(commonFailureAction(message));
   } finally {
     navigate('Menu');
