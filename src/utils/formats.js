@@ -11,3 +11,6 @@ export function formatCurrencyBrazil(number) {
     .replace('.', ',')
     .replace(/(\d)(?=(\d{3})+\,)/g, '$1.')}`;
 }
+export function removeAccent(str) {
+  return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+}
